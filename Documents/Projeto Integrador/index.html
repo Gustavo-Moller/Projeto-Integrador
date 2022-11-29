@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <script src="script.js" defer></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100&family=Rubik+Distressed&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script src="produtos.js"></script>
+    <title>Loja PC Gamer</title>
+</head>
+
+<body>
+    <header>
+        <!--logo-->
+        <div class="logo">
+            <a href="#">
+                <h1>PC Gamer</h1>
+            </a>
+        </div>
+        <!--cabeçalho-link-->
+        <div class="cabeçalho-link">
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="#produtos">Produtos</a>
+            </li>
+            <li>
+                <a href="#Contato">Contato</a>
+            </li>
+            <!--icon-->
+            <li>
+                <a href="#">
+                    <ion-icon name="cart-outline"></ion-icon>
+                </a>
+            </li>
+            <li>
+                <a href="entrar.html">
+                    <ion-icon name="person-circle-outline"></ion-icon>
+                </a>
+            </li>
+
+        </div>
+    </header>
+
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+
+            <div class="slide first">
+                <img src="Img/pc-gamer-atlas-top.jpg" />
+            </div>
+            <div class="slide">
+                <img src="Img/601928.jpg" />
+            </div>
+            <div class="slide">
+                <img src="Img/Frame 4.png" />
+            </div>
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+
+        </div>
+
+
+    </div>
+
+        <div class="models">
+            <div class="pizza-item">
+                <a href="">
+                    <div class="pizza-item--img"><img src="" /></div>
+                    <div class="pizza-item--add">+</div>
+                </a>
+                <div class="pizza-item--price">R$ --</div>
+                <div class="pizza-item--name">--</div>
+                <div class="pizza-item--desc">--</div>
+            </div>
+            <div class="cart--item">
+                <img src="" />
+                <div class="cart--item-nome">--</div>
+                <div class="cart--item--qtarea">
+                    <button class="cart--item-qtmenos">-</button>
+                    <div class="cart--item--qt">1</div>
+                    <button class="cart--item-qtmais">+</button>
+                </div>
+            </div>
+        </div>
+        <main>
+            <h1 class="produtos" id="produtos">Produtos</h1>
+            <div class="pizza-area"></div>
+        </main>
+
+    </div>
+
+    <div class="rodape" id="Contato">
+        ENDEREÇO: GOIANIA-GO, TEL: 62 0000-0000
+        <a href="#" class="rodape-rede"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="#" class="rodape-rede"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="#" class="rodape-rede"><ion-icon name="logo-whatsapp"></ion-icon></a>
+    </div>
+
+</body>
+
+</html>
